@@ -16,8 +16,8 @@
 }
 
 .nav {
-  margin-top: 1.5rem;
-  text-align: center;
+  margin-top: 0;
+  text-align: right;
 }
 
 .nav a {
@@ -32,4 +32,19 @@
     text-align: right;
   }
 
+}
+
+.current {
+	background-color: red;
+}
+
+.banner {
+	background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 5rem 1rem 1rem;
+}
+
+.banner h2 {
+	color: #fff;
 }
